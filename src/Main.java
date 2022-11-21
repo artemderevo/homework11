@@ -5,7 +5,7 @@ public class Main {
         String lastName = "Иванов";
         String fullName = firstName + " " + middleName + " " + lastName;
         fullName = fullName.replace("ё", "е");
-        System.out.println("Данные ФИО сотрудника — " + fullName);
+        System.out.println("Данные ФИО сотрудника — " + fullName );
 
 
     }
