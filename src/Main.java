@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        String firstName = "Ivan";
-        String middleName = "Ivanovich";
-        String lastName = "Ivanov";
+        String firstName = "Семён";
+        String middleName = "Семёнович";
+        String lastName = "Иванов";
         String fullName = firstName + " " + middleName + " " + lastName;
-        System.out.println("ФИО сотрудника — " + fullName);
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Данные ФИО сотрудника — " + fullName );
+
 
     }
 }
